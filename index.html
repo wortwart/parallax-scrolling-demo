@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Meine letzten c't-Artikel</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="main.css" />
+	</head>
+
+	<body>
+		<div id="content">
+			<article>
+				<h1>Soziales privatisieren. Social-Media-Aktivitäten im eigenen Blog sammeln</h1>
+				<p>Schreibt man ins Internet, passiert dies meist auf den diversen Social-Media-Kanälen, selbst wenn man eine eigene Webpräsenz betreibt. Doch genau dort gehören alle Tweets, Status-Updates, Bilder, Videos, Kommentare und Links hin. Ein paar Plug-ins und Skripte sammeln die verstreuten Web-Werke automatisch ein.</p>
+			</article>
+
+			<article>
+				<h1>Browser-Feuerwerk. Die aktuelle Webbrowser-Generation</h1>
+				<p>Browser werden so schnell weiterentwickelt wie keine andere Software-Gattung. Außer als Webseiten-Anzeige-Programm dienen sie heute auch als Anwendungs-Laufzeitumgebung, Spieleplattform, Betriebssystem-Desktop, Audio- und Video-Player, Videotelefonie-Anwendung und vieles mehr. Zeit für einen genauen Blick auf die aktuellen Browser für den PC.</p>
+			</article>
+
+			<article>
+				<h1>Telefonbau. Erste Schritte mit WebRTC</h1>
+				<p>Schon heute surft die Mehrzahl der Onliner mit einem Browser, der die Peer-to-Peer-Kommunikation mit WebRTC beherrscht. Wenige Zeilen Java-Script genügen, um einen Videochat im Browser zu realisieren.</p>
+			</article>
+
+			<article>
+				<h1>Über dieses Projekt</h1>
+				<p>Ziel dieses Demos war es, die einfachst mögliche Parallax-Anwendung zu bauen. Sie geht zurück auf das sehr viel schönere Beispiel von <a href="http://f6design.com/journal/2011/08/06/build-a-parallel-scrolling-website-interface-with-jquery-and-css/">Jonathan Nicol</a>.</p>
+				<p><a href="http://woerter.de/">Herbert Braun</a>, Oktober 2013</p>
+			</article>
+		</div>
+
+		<div id="bg">
+			<img id="bg1" src="ct_logo2012.png" alt="Logo"/>
+			<img id="bg2" src="ct_logo2012.png" alt="Logo"/>
+			<img id="bg3" src="ct_logo2012.png" alt="Logo"/>
+			<img id="bg4" src="ct_logo2012.png" alt="Logo"/>
+		</div>
+
+		<script type="text/javascript">
+			window.onscroll = function() {
+				document.getElementById('bg').style.top = (window.pageYOffset * -0.25) + 'px';
+			}
+		</script>
+
+	</body>
+</html>
